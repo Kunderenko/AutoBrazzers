@@ -555,22 +555,22 @@ body {
   .intro .social_facebook {
 	width: 25px;
 	height: 26px;
-	background-image: url(../images/social/facebook.webp);
+	background-image: url(../images/facebook.webp);
   }
   .intro .social_instagram {
 	width: 25px;
 	height: 25px;
-	background-image: url(../images/social/instagram.webp);
+	background-image: url(../images/instagram.webp);
   }
   .intro .social_youtube {
 	width: 27px;
 	height: 20px;
-	background-image: url(../images/social/youtube.webp);
+	background-image: url(../images/youtube.webp);
   }
   .intro .social_telegram {
 	width: 24px;
 	height: 21px;
-	background-image: url(../images/social/telegram.webp);
+	background-image: url(../images/telegram.webp);
   }
   .intro form {
 	position: relative;
