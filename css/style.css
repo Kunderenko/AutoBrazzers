@@ -707,7 +707,7 @@ body {
     right: 87px;
 	width: 30px;
 	height: 19px;
-	background: url(../images/calc/battery_for_electrocar.webp) no-repeat;
+	background: url(../images/calc/battery_for_electrocar.png) no-repeat;
   }
 
   .car_label::after {
@@ -722,19 +722,19 @@ body {
   }
 
   .car_label.moto::after {
-	  background-image: url(../images/calc/motorcycle.webp)
+	  background-image: url(../images/calc/motorcycle.png)
   }
 
   .car_label.easycar::after {
-	  background-image: url(../images/calc/easy_car.webp);
+	  background-image: url(../images/calc/car.png);
   }
 
   .car_label.electrocar::after {
-	  background-image: url(../images/calc/electrocar.webp);
+	  background-image: url(../images/calc/electrocar.png);
   }
   
   .car_label.pickup::after {
-	  background-image: url(../images/calc/pickup.webp);
+	  background-image: url(../images/calc/pickup.png);
   }
 
   .car_label {
@@ -957,7 +957,7 @@ body {
 	  height: 15px;
 	  margin-right: 10px;
 
-	  background-image: url(../images/calc/prices/information.webp);
+	  background-image: url(../images/calc/prices/information.svg);
 	  background-repeat: no-repeat;
 	  cursor: pointer;
   }
@@ -1044,6 +1044,10 @@ body {
 
  /* Examples(Slider) */
 
+ .examples {
+	 background-image: url(../images/exampl.png);
+ }
+
  .examples__item {
 	width: 100%;
 	max-width: 350px;
@@ -1059,6 +1063,7 @@ body {
 .examples__photo-wrapper {
 	width: 100%;
 	max-width: 350px;
+	max-height: 162px;
 	margin-bottom: 20px;
 }
 
@@ -1192,12 +1197,16 @@ body {
 /* Our work */
 .our_work {
   padding-bottom: 20px;
+  background-image: url(../images/stage_bg.png);
+ 
 }
 
 .our_work_content {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+ 
+  /* background-color: #6d6d6d; */
   box-shadow: inset 0 0 120px #000, inset 0 0 80px #000, inset 0 0 40px #000;
 }
 
@@ -1330,7 +1339,7 @@ body {
 section.services {
 		/* min-height: 1220px; */
 
-		background-image: url(../images/services/automobile-automotive-car-360399.webp);
+		background-image: url(../images/services/automobile-automotive-car-360399.png);
 		background-repeat: no-repeat;
 		/* background-position: center;
 		background-size: cover; */
@@ -1399,7 +1408,7 @@ section.services {
 		right: 26px;
 		width: 40px;
 		height: 40px;
-		background-image: url(../images/services/open-btn_back.webp);
+		background-image: url(../images/services/open-btn_back.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		
@@ -1415,7 +1424,7 @@ section.services {
 		right: 12.5px;
 		width: 15px;
 		height: 8px;
-		background: url(../images/services/arrow.webp) center no-repeat;
+		background: url(../images/services/arrow.png) center no-repeat;
 		background-size: cover;
 		transition: .3s;
   }
@@ -1436,29 +1445,33 @@ section.services {
 		border-top: none;
 	}
 
-  .order-btn {
-	padding-top: 12.5px;
-	margin: 0 auto;
-	width: 160px;
-	height: 50px;
-	border-radius: 25px;
-	background-color: #f7c935;
-	transition: .2s;
+	.order-btn {
+		padding-top: 12.5px;
+		margin: 0 auto;
+		width: 160px;
+		height: 50px;
+		border-radius: 25px;
+		background-color: #f7c935;
+		-webkit-transition: .2s;
+		-o-transition: .2s;
+		transition: .2s;
+	
+		cursor: pointer;
+	  }
+  
 
-	cursor: pointer;
-  }
-
-  .order-btn .btn {
-	display: block;
-
-	color: #000000;
-	font-family: "Open Sans";
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-align: center;
-	text-decoration: none;
-  }
+	  .order-btn .btn {
+		display: block;
+		padding: 0;
+		height: unset;
+		color: #000000;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+	  }
 
   .order-btn:hover{
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
@@ -1517,11 +1530,19 @@ section.services {
 		line-height: 20px;
 		text-align: center;
 	}
+	/* selection_car */
+
+section.selection_car {
+	background-image: url(../images/american-flag.png);
 	
+
+}
+
 .cars_wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 -15px;
+	
 }
 
 .car_item {
@@ -1564,7 +1585,7 @@ section.services {
 	left: 0;
 	width: 255px;
 	height: 82px;
-	background-image: url(../images/select/golden_light.webp);
+	background-image: url(../images/select/golden_light.png);
 	background-repeat: no-repeat;
 	opacity: 0;
 	transition: .5s;
@@ -1692,7 +1713,9 @@ section.services {
 	border-radius: 5px;
 	border: none;
 }
-
+.ui-widget-header {
+    background: #f7c935;
+}
 .year_select-container .ui-slider .ui-slider-handle {
 	position: relative;
 	display: inline-block;
@@ -1766,7 +1789,7 @@ section.services {
 
 .reviews {
 	padding-bottom: 90px;
-	background-image: url(../images/reviews/1.webp);
+	background-image: url(../images/reviews/1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -1798,7 +1821,7 @@ section.services {
 	border: 8px solid #010101;
 	border-radius: 50%;
 	background-color: #def5e5;
-	background-image: url(../images/reviews/person.jpg);
+	background-image: url(../images/reviews/face.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
@@ -1870,10 +1893,11 @@ section.services {
 			top: 63%;
 		}
 
-		/* background-image: url(../images/contacts/form.webp); */
-.contacts {
+	.contacts {
 		position: relative;
 		padding-bottom: 266px;
+		background: url(../images/footer/footer.png) no-repeat;
+    background-position: bottom;
 	}
 
 	.inf {
@@ -1901,7 +1925,7 @@ section.services {
 		border-radius: 15px;
 		border: 1px solid #f7c935;
 		background-color: #000000;
-		background-image: url(../images/contacts/form.webp);
+		background-image: url(../images/contacts/form.png);
 		background-repeat: no-repeat;
 		background-position: right;
 	}
