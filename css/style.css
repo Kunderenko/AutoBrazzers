@@ -329,7 +329,7 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
   }
-  .lang__text__element {
+  .lang_text_element {
 	font-family: "Raleway", sans-serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -339,7 +339,7 @@ body {
 	-webkit-transition: 0.1s linear opacity;
 	transition: 0.1s linear opacity;
   }
-  .lang__text__element:hover {
+  .lang_text_element:hover {
 	opacity: 0.8;
   }
   .lang-switch {
