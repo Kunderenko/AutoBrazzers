@@ -2803,7 +2803,9 @@ section.selection_car {
 	.main_calc {
 		padding: 20px 20px;
 	}
-
+         .prices_item select {	
+		width: 82%;	
+	}
 
 	.other_prices .prices_item {
 		padding: 6px 12px;
