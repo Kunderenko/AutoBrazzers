@@ -1486,6 +1486,9 @@ section.services {
 		text-decoration: none;
 	  }
 
+  
+  
+ 
 	  .order-btn .btns {
 		display: block;
 		padding: 0;
@@ -2304,11 +2307,7 @@ section.selection_car {
 		max-width: none;
 
 	}
-	
-    .prices_item select {
-		width: 90%;
-	}
-	
+
 	.other_prices .prices_item {
 		width: 48.5%;
 	}
@@ -2434,10 +2433,6 @@ section.selection_car {
 		padding-bottom: 15px;
 	}
 
-	.prices_item select {
-		width: 88%;
-	}
-
 	.inf .header_phone {
 		display: flex;
 	}
@@ -2447,11 +2442,6 @@ section.selection_car {
 	/* Calculator */
 	.other_prices .prices_item {
 		width: 100%;
-		}
-	 .prices_item select {
-		width: 88%;
-	}
-		
 	}
 
 	/* Footer */
@@ -2608,11 +2598,6 @@ section.selection_car {
 		justify-content: center;
 	}
 
-    .prices_item select {
-		width: 88%;
-	}
-
-
 	/* Our works */
 
 	.our_work_item {
@@ -2653,11 +2638,6 @@ section.selection_car {
 	.vehicle:not(:last-child) {
 		margin-bottom: 150px;
 	}
-	
-	
-	.prices_item select {
-		width: 78%;
-	}
 
 	.car_item {
 		width: 100%;
@@ -2666,9 +2646,7 @@ section.selection_car {
 		margin-right: 50%;
 	}
 	
-	 .prices_item select {
-		width: 82%;
-	}
+	
 	
 	
 	.calculator_select {
@@ -2706,11 +2684,6 @@ section.selection_car {
 	.intro form .btn {
 		margin-bottom: 20px;
 	}
-
-    .prices_item select {
-		width: 82%;
-	}
-
 
 	/* Calculator */
 
@@ -2753,7 +2726,6 @@ section.selection_car {
 		border-radius: 0;
 	}
 
-
 	.intro .description h1 {
 		font-size: 29px;
 	}
@@ -2770,7 +2742,6 @@ section.selection_car {
 		margin-bottom: 30px;
 	}
 
-
 	/* Contacts */
 
 	.contacts {
@@ -2780,10 +2751,11 @@ section.selection_car {
 	.contacts h2.title {
 		left: calc(50% - 71.5px);
 	}
-	
-	 .prices_item select {
-		width: 82%;
-	}
+
+	/* .f {
+		bottom: -180px;
+	} */
+
 	.f .form_intro {
 		left: 0;
     	margin-right: 20px;
@@ -2833,7 +2805,7 @@ section.selection_car {
 	}
 
 	.prices_item select {
-		width: 78%;
+		width: 72%;
 	}
 
 	.other_prices .prices_item {
